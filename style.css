@@ -31,6 +31,8 @@
     margin-bottom: 20px;
     background-color: black;
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;
 }
 
 .container .header h2 {
