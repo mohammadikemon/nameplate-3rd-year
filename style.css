@@ -19,6 +19,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: #ff4e4e;
+    letter-spacing: 1px;
 }
 
 .container .header small {
