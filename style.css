@@ -70,7 +70,7 @@
     background-color: #222;
     color: #fff;
     padding:30px 20px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Roboto', sans-serif;
     font-weight:600;
     font-size: 18px;
     cursor: pointer;
@@ -91,7 +91,7 @@
 
 .service .serv-content .card .box .roll {
     font-size: 30px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Roboto', sans-serif;
     font-weight: 600;
     margin-bottom: 10px;
     letter-spacing: 1px;
@@ -102,32 +102,8 @@
 .service .serv-content .card .box .name {
     color: wheat;
     text-align:center;
-    font-size:  24px;
+    font-size:  26px;
 }
-
-.service .serv-content .card .box .student-id span {
-    background-color: rgb(255, 141, 0, 1);
-    color: black;
-    font-weight:bolder;
-    padding: 0 10px;
-    border-radius: 20px
-}
-
-.service .serv-content .card .box .batch, .blood-group {
-    margin-top: -5px;
-}
-
-.service .serv-content .card .box .blood-group span {
-    color: crimson;
-    font-weight: 600;
-}
-
-.service .serv-content .card .box span.correction {
-    color: #00ff4c;
-    background-color: #222
-}
-
-
 
 .footer {
     padding: 20px 0;
