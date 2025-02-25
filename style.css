@@ -64,7 +64,7 @@
 
 .service .container .demo-Nameplate {
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     flex-wrap: wrap;
     margin-top: 50px;
 }
@@ -196,7 +196,7 @@
 @media (max-width: 947px) {
 .service .serv-content {
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
 .service .serv-content .card:nth-child(odd) {
@@ -217,7 +217,9 @@
 
 @media (max-width: 786px) {
 .service .container .demo-Nameplate .demo-Nameplate-Card {
-        width: 400px
+        width: 400px;
+        margin: auto;
+        margin-bottom: 30px;
     }
 }
 
