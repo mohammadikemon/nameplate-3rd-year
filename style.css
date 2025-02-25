@@ -71,7 +71,7 @@
 
 .service .serv-content .card {
     width: calc(33% - 25px);
-    background-color: #222;
+    background-color: rgb(228, 194, 228);
     color: #fff;
     padding:30px 20px;
     font-family:'Roboto', sans-serif;
@@ -85,6 +85,7 @@
 
 .service .serv-content .card .box {
     padding: 0 5px;
+    text-align: center;
 }
 
 .service .serv-content .card .box p {
@@ -99,14 +100,25 @@
     font-weight: 600;
     margin-bottom: 10px;
     letter-spacing: 1px;
-    color: #00e5ff;
-    text-align: center;
+    color:sienna;
 }
 
 .service .serv-content .card .box .name {
-    color: wheat;
-    text-align:center;
+    color:teal;
     font-size:  26px;
+    margin-bottom: 10px;
+}
+
+.service .serv-content .card .box small {
+    color:slateblue;
+}
+
+.service .serv-content .card .box small span.red {
+    color: red;
+}
+
+.service .serv-content .card .box small span.black {
+    color: black;
 }
 
 .footer {
