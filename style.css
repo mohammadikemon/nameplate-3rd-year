@@ -64,7 +64,7 @@
 
 .service .serv-content {
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     flex-wrap: wrap;
     margin-top: 50px;
 }
@@ -78,7 +78,7 @@
     font-weight:600;
     font-size: 18px;
     cursor: pointer;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     border: 5px solid black;
     border-radius: 7px;
     position: relative;
