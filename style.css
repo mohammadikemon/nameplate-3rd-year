@@ -62,11 +62,54 @@
     font-style: italic;
 }
 
-.service .serv-content {
+.service .container .demo-Nameplate {
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
     margin-top: 50px;
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card {
+    width: calc(33% - 30px);
+    background-color: red;
+    color: #fff;
+    padding:10px 10px;
+    font-family:'Roboto', sans-serif;
+    font-weight:600;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card .box {
+    border: 5px solid white;
+    padding: 10px;
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card .box .name {
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card .box .course-Detail {
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card.internShip {
+    background-color: black;
+}
+
+.service .serv-content {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-top: 80px;
 }
 
 .service .serv-content .card {
@@ -165,9 +208,18 @@
     padding: 50px 30px;
     margin-bottom: 10px;
 }
+
+
+.service .container .demo-Nameplate .demo-Nameplate-Card {
+    width: calc(50% - 30px);
+}
 }
 
-
+@media (max-width: 786px) {
+.service .container .demo-Nameplate .demo-Nameplate-Card {
+        width: 400px
+    }
+}
 
 @media (max-width: 600px){
 .container {
@@ -182,6 +234,10 @@
     width: calc(100% - 10px);
     padding: 45px 15px;
     margin-bottom: 10px;
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card {
+    width: 380px
 }
 
 .footer {
