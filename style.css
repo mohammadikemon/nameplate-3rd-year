@@ -70,7 +70,7 @@
 }
 
 .service .serv-content .card {
-    width: calc(33% - 25px);
+    width: calc(33% - 30px);
     background-color: rgb(228, 194, 228);
     color: #fff;
     padding:30px 20px;
@@ -78,7 +78,8 @@
     font-weight:600;
     font-size: 18px;
     cursor: pointer;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    border: 5px solid black;
     border-radius: 7px;
     position: relative;
 }
@@ -162,7 +163,7 @@
 .service .serv-content .card {
     width: calc(50% - 10px);
     padding: 50px 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 }
 
@@ -180,7 +181,7 @@
 .service .serv-content .card {
     width: calc(100% - 10px);
     padding: 45px 15px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .footer {
