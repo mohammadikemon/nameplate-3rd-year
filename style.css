@@ -73,14 +73,13 @@
 }
 
 .service .container .demo-Nameplate {
-    display: flex;
-    justify-content:space-around;
-    flex-wrap: wrap;
+    display:block;
+    margin: auto;
     margin-top: 10px;
 }
 
 .service .container .demo-Nameplate .demo-Nameplate-Card {
-    width: calc(33% - 30px);
+    width: 380px;
     background-color: red;
     color: #fff;
     padding:10px 10px;
@@ -89,30 +88,52 @@
     font-size: 18px;
     text-align: center;
     cursor: pointer;
-    margin-bottom: 20px;
+    margin: auto;
+    margin-bottom: 40px;
     position: relative;
+    /* display: block; */
 }
 
 .service .container .demo-Nameplate .demo-Nameplate-Card .box {
     border: 5px solid white;
-    padding: 10px;
+    padding: 3px;
 }
 
 .service .container .demo-Nameplate .demo-Nameplate-Card .box .name {
-    font-size: 30px;
+    font-size: 35px;
     letter-spacing: 1px;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
+    margin-top: 7px;
 }
 
 .service .container .demo-Nameplate .demo-Nameplate-Card .box .course-Detail {
     font-size: 20px;
     letter-spacing: 1px;
-    word-spacing: 2px;
+    word-spacing: 1px;
+    margin-bottom: 10px;
 
 }
 
 .service .container .demo-Nameplate .demo-Nameplate-Card.internShip {
     background-color: black;
+    /* display: block; */
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card.internShip .box .name {
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card.internShip .course-Detail {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card.internShip .course-Location {
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 2px;
 }
 
 .service .serv-content {
@@ -218,20 +239,8 @@
     padding: 50px 30px;
     margin-bottom: 10px;
 }
-
-
-.service .container .demo-Nameplate .demo-Nameplate-Card {
-    width: calc(50% - 30px);
-}
 }
 
-@media (max-width: 786px) {
-.service .container .demo-Nameplate .demo-Nameplate-Card {
-        width: 400px;
-        margin: auto;
-        margin-bottom: 30px;
-    }
-}
 
 @media (max-width: 600px){
 .container {
@@ -246,10 +255,6 @@
     width: calc(100% - 10px);
     padding: 45px 15px;
     margin-bottom: 10px;
-}
-
-.service .container .demo-Nameplate .demo-Nameplate-Card {
-    width: 380px
 }
 
 .footer {
